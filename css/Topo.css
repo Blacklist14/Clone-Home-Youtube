@@ -1,0 +1,101 @@
+/* TOPO */
+.hamburgue{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 40px;
+    border-radius: 50%;
+    height: 40px;
+    margin: 0px 0px 0px 15px;
+    cursor: pointer;
+}
+.hamburgue:active{
+    background-color: #303030;
+    transition: all 0.1s;
+}
+.linhaM{
+    width: 18px;
+    height: 2px;
+    margin:0px 0px 3px 0px;
+    background-color: white;
+}
+.topo-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topo-logo p{
+    font-size: 10px;
+    font-weight: 500;
+    margin-left: 3px;
+    margin-bottom: 10px;
+    color: #666565;
+}
+.topo-content{
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    height: 9vh;
+    align-items: center;
+    background-color: #212121e8;
+}
+.topo-content img{
+    width: 80px;
+    height: 80px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.topo-content input{
+    width: 417px;
+    height: 30px;
+    border: none;
+    background-color: #121212;
+    color: white;
+    text-align: left;
+    text-indent: 5px;
+    font-size: 17px;
+    font-weight: 400;
+    border: 1px solid #303030;
+    margin-left: 75px;
+    position: relative;
+}
+
+.button{
+width: 60px;
+height: 30px;
+background-color: #303030;
+border: none;
+cursor: pointer;
+}
+.button img{
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+}
+.voz, .create,.aplicativos,.sino{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.voz img{
+    width: 20px;
+    height: 25px;
+    margin: 0px 0px 0px 15px;
+}
+.create img{
+    width: 25px;
+    height: 25px;
+    margin: 0px 0px 0px 40px;
+}
+.aplicativos img{
+    width: 20px;
+    height: 20px;
+    margin: 0px 0px 0px 20px;
+}
+.sino img{
+    width: 15px;
+    height: 20px;
+    margin: 0px 0px 0px 25px;
+}
+/* END-TOPO */
