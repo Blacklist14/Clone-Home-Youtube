@@ -29,6 +29,13 @@ body{
     flex-wrap: wrap;
     background-color: rgb(18, 18, 18);
 }
+.sombra{
+    position: absolute;
+    width: 95vw;
+    height: 91vh;
+    background-color: rgba(0, 0, 0, 0.507);
+    transition: all 1s;
+}
 .video{
     margin-bottom: 50px;
     display: flex;
@@ -49,9 +56,7 @@ body{
     text-decoration: none;
     color: #666565;
 }
-.video-gif{
-    
-}
+
 .linkHover{
     color: rgb(255, 255, 255);
     margin:5px 0px 10px 0px;

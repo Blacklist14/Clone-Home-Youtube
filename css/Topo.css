@@ -7,7 +7,7 @@
     width: 40px;
     border-radius: 50%;
     height: 40px;
-    margin: 0px 0px 0px 15px;
+    margin: 0px 0px 0px 17px;
     cursor: pointer;
 }
 .hamburgue:active{
@@ -47,7 +47,7 @@
     cursor: pointer;
 }
 .topo-content input{
-    width: 417px;
+    width: 575px;
     height: 30px;
     border: none;
     background-color: #121212;
@@ -57,7 +57,7 @@
     font-size: 17px;
     font-weight: 400;
     border: 1px solid #303030;
-    margin-left: 75px;
+    margin-left: 170px;
     position: relative;
 }
 
@@ -86,16 +86,22 @@ cursor: pointer;
 .create img{
     width: 25px;
     height: 25px;
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 0px 127px;
 }
 .aplicativos img{
-    width: 20px;
-    height: 20px;
-    margin: 0px 0px 0px 20px;
+    width: 17px;
+    height: 17px;
+    margin: 0px 0px 0px 30px;
 }
 .sino img{
     width: 15px;
     height: 20px;
-    margin: 0px 0px 0px 25px;
+    margin: 0px 0px 0px 30px;
+}
+.usuario img{
+    width: 35px;
+    height: 35px;
+    margin: 3px 0px 0px 30px;
+    border-radius: 50%;
 }
 /* END-TOPO */
