@@ -10,7 +10,7 @@
     position: fixed;
     bottom: 0px;
     transition:  transform 1s ease;
-    z-index: 30;
+    z-index: 999;
 }
 
 .menu-content img{
@@ -65,6 +65,7 @@
     width: 11vh;
     height: 100vh;
     position: fixed;
+    z-index: 30;
     top: 57px;
     background-color: #212121;
 }
