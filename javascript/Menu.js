@@ -93,3 +93,36 @@ var op1 = document.querySelector(".option1").addEventListener("click", () => {
     }
 })
 
+//MOVE AS TAGS
+soma = 100
+var b1 = document.querySelector(".bottonE")
+var mov1 = document.querySelector(".bottonE").addEventListener("click",()=>{
+    let list = document.querySelector(".lista-main ul")
+    if("click"){
+    list.style.transform= `translateX(${soma}px)`
+    var s = soma +=70
+    console.log(s)
+    b2.style.display="flex"
+    }
+    if(soma >= 70){
+        b1.style.display= "none"
+        som = 0
+    }
+
+})
+var b2 = document.querySelector(".bottonD")
+som = 100
+var mov1 = document.querySelector(".bottonD").addEventListener("click",()=>{
+    let list = document.querySelector(".lista-main ul")
+    if("click"){
+    list.style.transform= `translateX(-${som}px)`
+    som +=70
+    console.log(som)
+    b1.style.display="flex"
+    }
+    if(som >= 560){
+        b2.style.display= "none"
+        soma = -470
+    }
+
+})
