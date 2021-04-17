@@ -114,7 +114,7 @@ body::-webkit-scrollbar-thumb{
 }
 .bottonE,.bottonD{
     position: fixed;
-    z-index: 999;
+    z-index: 50;
     top: 58px;
     display: flex;
     align-items: center;
@@ -142,7 +142,7 @@ body::-webkit-scrollbar-thumb{
     bottom: 0px;
     left: 0px;
     right: -10px;
-    z-index: -999;
+    z-index: -50;
     filter: blur(10px);
     background-color: #212121fb;
 }

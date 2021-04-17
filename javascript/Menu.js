@@ -43,7 +43,7 @@ var menu = document.querySelector(".hamburgue").addEventListener("click", () => 
         hid.style.overflow = ""
         somb.classList.remove("sombra")
         video.style.width = "95vw"
-        list.style.transform = "translateX(0px)"
+        list.style.transform = "translateX(90px)"
         v.style.width = '300px'
         v1.style.width = '300px'
         v2.style.width = '300px'
@@ -65,7 +65,7 @@ var menu = document.querySelector(".hamburgue").addEventListener("click", () => 
         hid.style.overflow = ""
         somb.classList.remove("sombra")
         video.style.width = "95vw"
-        list.style.transform = "translateX(0px)"
+        list.style.transform = "translateX(90px)"
         v.style.width = '300px'
         v1.style.width = '300px'
         v2.style.width = '300px'
@@ -112,7 +112,7 @@ var mov1 = document.querySelector(".bottonE").addEventListener("click",()=>{
 })
 var b2 = document.querySelector(".bottonD")
 som = 100
-var mov1 = document.querySelector(".bottonD").addEventListener("click",()=>{
+var mov2 = document.querySelector(".bottonD").addEventListener("click",()=>{
     let list = document.querySelector(".lista-main ul")
     if("click"){
     list.style.transform= `translateX(-${som}px)`
@@ -125,4 +125,17 @@ var mov1 = document.querySelector(".bottonD").addEventListener("click",()=>{
         soma = -470
     }
 
+})
+var mov1P = document.querySelector(".bottonE").addEventListener("mouseup",()=>{
+    let list = document.querySelector(".lista-main ul")
+    if("mouseup"){
+    list.style.transform= `translateX(${soma}px)`
+    var s = soma +=70
+    console.log(s)
+    b2.style.display="flex"
+    }
+    if(soma >= 70){
+        b1.style.display= "none"
+        som = 0
+    }
 })
