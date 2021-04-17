@@ -39,12 +39,11 @@ body::-webkit-scrollbar-thumb{
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(18, 18, 18);
-    transition: width 1s ease;
 }
 .sombra{
     position: absolute;
     width: 95vw;
-    height: 91vh;
+    height: 555px;
     background-color: rgba(0, 0, 0, 0.507);
     transition: all 1s;
 }
@@ -57,9 +56,6 @@ body::-webkit-scrollbar-thumb{
 .video img{
     width: 300px;
     margin-left: 10px;
-}
-.videoM img{
-    width: 250px;
 }
 .video div{
     display: flex;
@@ -77,21 +73,28 @@ body::-webkit-scrollbar-thumb{
     color: rgb(255, 255, 255);
     margin:5px 0px 10px 0px;
 }
-.lista-main ul{
+.lista-main{
     top: 57px;
-    list-style: none;
-    width: 95vw;
-    height: 8vh;
+    width: 150vw;
+    height: 60px;
     position: fixed;
     display: flex;
     align-items: center;
-    justify-content: start;
+    justify-content: flex-end;
     right: 0px;
+    transform: translateX(430px);
     background-color: #212121fb;
     margin-bottom: 500px;
     border-top: 0.5px solid rgb(77, 75, 75);
     border-bottom: 0.5px solid rgb(77, 75, 75);
     transition: width 1s ease;
+}
+.lista-main ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    transform: translateX(px);
 }
 .lista-main ul li{
     background-color: #383838;
@@ -107,4 +110,46 @@ body::-webkit-scrollbar-thumb{
 }
 .lista-main ul li:nth-child(1){
     margin-left: 50px;
+}
+.bottonE,.bottonD{
+    position: fixed;
+    z-index: 999;
+    top: 58px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 57px;
+    width: 80px;
+    background-color: #212121fb;
+    cursor: pointer;
+}
+.bottonD::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: -10px;
+    right: 0px;
+    background-color: #212121fb;
+    filter: blur(10px);
+    z-index: -1;
+}
+.bottonE::after{
+    content: "";
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: -10px;
+    z-index: -999;
+    filter: blur(10px);
+    background-color: #212121fb;
+}
+.bottonE img, .bottonD img{
+    width: 25px;
+    height: 25px;
+    position: relative;
+}
+.bottonE{
+    left: 70px;
 }

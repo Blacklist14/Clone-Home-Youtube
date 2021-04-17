@@ -36,9 +36,15 @@
     position: fixed;
     display: flex;
     width: 100vw;
-    height: 9vh;
+    height: 57px;
     align-items: center;
+    justify-content: space-between;
     background-color: #212121fb;
+    z-index: 999;
+}
+.content-logo,.content-pesquisa,.content-user{
+    display: flex;
+    align-items: center;
 }
 .topo-content img{
     width: 80px;
@@ -57,7 +63,6 @@
     font-size: 17px;
     font-weight: 400;
     border: 1px solid #303030;
-    margin-left: 170px;
     position: relative;
 }
 
@@ -86,7 +91,6 @@ cursor: pointer;
 .create img{
     width: 25px;
     height: 25px;
-    margin: 0px 0px 0px 127px;
 }
 .aplicativos img{
     width: 17px;
@@ -101,7 +105,7 @@ cursor: pointer;
 .usuario img{
     width: 35px;
     height: 35px;
-    margin: 3px 0px 0px 30px;
+    margin: 3px 50px 0px 30px;
     border-radius: 50%;
 }
 /* END-TOPO */

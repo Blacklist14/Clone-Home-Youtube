@@ -15,19 +15,16 @@ var menu = document.querySelector(".hamburgue").addEventListener("click", () => 
     let v6 = document.querySelector(".video-gif6")
     let v7 = document.querySelector(".video-gif7")
     let v8 = document.querySelector(".video-gif8")
-    let v9 = document.querySelector(".video-gif9")
-    let v10 = document.querySelector(".video-gif10")
-    let v11 = document.querySelector(".video-gif11")
     //MOSTRA-O-MENU\\
+    p=0
     if (i <= 0) {
-        
         hid.style.overflow = "hidden"
         move.style.transform = ("translateX(0px)")
         video.style.width = "81vw"
         window.setTimeout(function () {
             somb.classList = ("sombra")
         }, 200)
-        list.style.width= "82.5vw"
+        list.style.transform = "translateX(150px)"
         v.style.width = '250px'
         v1.style.width = '250px'
         v2.style.width = '250px'
@@ -46,7 +43,7 @@ var menu = document.querySelector(".hamburgue").addEventListener("click", () => 
         hid.style.overflow = ""
         somb.classList.remove("sombra")
         video.style.width = "95vw"
-        list.style.width= "95vw"
+        list.style.transform = "translateX(0px)"
         v.style.width = '300px'
         v1.style.width = '300px'
         v2.style.width = '300px'
@@ -68,7 +65,7 @@ var menu = document.querySelector(".hamburgue").addEventListener("click", () => 
         hid.style.overflow = ""
         somb.classList.remove("sombra")
         video.style.width = "95vw"
-        list.style.width= "95vw"
+        list.style.transform = "translateX(0px)"
         v.style.width = '300px'
         v1.style.width = '300px'
         v2.style.width = '300px'
@@ -95,3 +92,4 @@ var op1 = document.querySelector(".option1").addEventListener("click", () => {
         n = 0
     }
 })
+
