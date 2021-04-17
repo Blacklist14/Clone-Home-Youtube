@@ -45,15 +45,12 @@ let vi7 = document.querySelector(".video-gif7").addEventListener("mouseover", ()
 // MOUSE_LEVA_HOVER
 let vid = document.querySelector(".video-gif").addEventListener("mouseleave", () => {
     v.setAttribute("src", "https://i.ytimg.com/vi/V0FuAukFSzc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz6j4HaNZO2vOARzmoTHFKQYXo1Q")
-    console.log("BAH")
 })
 let vid1 = document.querySelector(".video-gif1").addEventListener("mouseleave", () => {
     v1.setAttribute("src", "https://i.ytimg.com/vi/qg2lzUX8-N0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFxfUhn7sjbLEkCknp2o8MsN6O1A")
-    console.log("BAH")
 })
 let vid2 = document.querySelector(".video-gif2").addEventListener("mouseleave", () => {
     v2.setAttribute("src", "https://i.ytimg.com/vi/3Kf18kN-5XY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSwaMRLCtNmPxBvvCJgMc0vGdKpw")
-    console.log("BAH")
 })
 let vid3 = document.querySelector(".video-gif3").addEventListener("mouseleave", () => {
     v3.setAttribute("src", "https://i.ytimg.com/vi/H75eZUaUPSc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAF5-bP0l4UitZQwRqP8YV36wm96g")

@@ -101,7 +101,6 @@ var mov1 = document.querySelector(".bottonE").addEventListener("click",()=>{
     if("click"){
     list.style.transform= `translateX(${soma}px)`
     var s = soma +=70
-    console.log(s)
     b2.style.display="flex"
     }
     if(soma >= 70){
@@ -126,16 +125,19 @@ var mov2 = document.querySelector(".bottonD").addEventListener("click",()=>{
     }
 
 })
-var mov1P = document.querySelector(".bottonE").addEventListener("mouseup",()=>{
-    let list = document.querySelector(".lista-main ul")
-    if("mouseup"){
-    list.style.transform= `translateX(${soma}px)`
-    var s = soma +=70
-    console.log(s)
-    b2.style.display="flex"
+function showBtn() {
+    var calc = document.querySelector('body > main > section.lista-main').offsetWidth - document.querySelector('body > main > section.lista-main > ul').offsetWidth + (document.querySelector('body > main > section.lista-main > ul').offsetLeft * -1)
+    console.log(calc)
+    if (calc < 20) {
+        document.querySelector('body > main > div.bottonD').style.display = 'flex';
+    } else {
+        document.querySelector('body > main > div.bottonD').style.display = 'none';
     }
-    if(soma >= 70){
-        b1.style.display= "none"
-        som = 0
+
+    if(calc > -526) {
+        document.querySelector('body > main > div.bottonE').style.display = 'flex';
+        // document.querySelector('body > main > div.bottonE').style.left = '-80px';
+    } else {
+        document.querySelector('body > main > div.bottonE').style.display = 'none';
     }
-})
+}
