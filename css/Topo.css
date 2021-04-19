@@ -67,40 +67,43 @@
 }
 
 .button{
-width: 60px;
-height: 30px;
-background-color: #303030;
-border: none;
-cursor: pointer;
+    width: 60px;
+    height: 30px;
+    background-color: #303030;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.button img{
-    width: 20px;
-    height: 20px;
+.button .material-icons{
+    font-size: 20px;
     margin: 0px;
+    color: #666565;
+}
+a{
+    text-decoration: none;
 }
 .voz, .create,.aplicativos,.sino{
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.voz img{
-    width: 20px;
-    height: 25px;
+.voz span{
+    font-size: 24px;
     margin: 0px 0px 0px 15px;
 }
-.create img{
+.create span{
     width: 25px;
     height: 25px;
 }
-.aplicativos img{
-    width: 17px;
-    height: 17px;
-    margin: 0px 0px 0px 30px;
+.aplicativos span{
+    font-size: 24px;
+    margin: 0px 0px 0px 25px;
 }
-.sino img{
-    width: 15px;
-    height: 20px;
-    margin: 0px 0px 0px 30px;
+.sino span{
+    font-size: 24px;
+    margin: 0px 0px 0px 25px;
 }
 .usuario img{
     width: 35px;

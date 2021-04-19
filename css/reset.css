@@ -1,0 +1,29 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    image-rendering: optimizeQuality;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #131313;
+    color: white;
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #141414;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #8f8f8f;
+    border-radius: 20px;
+    border: 3px solid #141414;
+}

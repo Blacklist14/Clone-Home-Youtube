@@ -6,18 +6,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>(58) Youtube</title>
+
+    <!-- LINKS -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
         rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="img/youtube-logo.png" type="icon">
-
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/Topo.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/menu-secund.css">
+    <!-- END-LINKS -->
 </head>
 
 <body>
-
+    <!-- TOPO--->
     <header class="topo-content">
         <div class="content-logo">
             <div class="hamburgue">
@@ -37,54 +42,57 @@
             <input id="search" type="text" placeholder="Pesquisar">
             <a id="buttonSearch" href="">
                 <button class="button">
-                    <img src="img/search.png" alt="">
+                    <span class="material-icons">search</span>
                 </button>
             </a>
             <div class="voz">
-                <img src="img/voice.png" alt="">
+                <span class="material-icons">
+                    keyboard_voice
+                </span>
             </div>
         </div>
         <div class="content-user">
             <div class="create">
-                <img src="img/video_call.png" alt="">
+                <span class="material-icons">video_call</span>
             </div>
             <div class="aplicativos">
-                <img src="img/block.png" alt="">
+                <span class="material-icons">apps </span>
             </div>
             <div class="sino">
-                <img src="img/Vector (1).png" alt="">
+                <span class="material-icons">notifications </span>
             </div>
             <div class="usuario">
                 <img src="img/img.jpg" alt="">
             </div>
         </div>
     </header>
-
+    <!-- MENU-E-MENU-SECUNDARIO -->
     <nav>
         <section class="menu-content">
-            <div class="img option1"><img src="img/home.png" alt="">
+            <div class="img"><span class="material-icons">home</span>
                 <p>Início</p>
             </div>
-            <div class="img"><img src="img/explore.png" alt="">
+            <div class="img"><span class="material-icons">explore</span>
                 <p>Explorar</p>
             </div>
-            <div class="img"><img src="img/Vector (2).png" alt="">
+            <div class="img"><span class="material-icons">subscriptions</span>
                 <p>Inscrições</p>
             </div>
             <div class="linha"></div>
-            <div class="img"><img src="img/video_library.png" alt="">
+            <div class="img">
+                <span class="material-icons">video_library</span>
                 <p>Biblioteca</p>
             </div>
-            <div class="img"><img src="img/history.png" alt="">
+            <div class="img"><span class="material-icons">restore</span>
                 <p>Historico</p>
             </div>
-            <div class="img"><img src="img/3643741-512.png" alt="">
+            <div class="img"><span class="material-icons">slideshow</span>
                 <p>Seu Videos</p>
             </div>
-            <div class="img"><img src="img/query_builder.png" alt="">
+            <div class="img"><span class="material-icons">access_time_filled</span>
                 <p>Assistir mais tarde</p>
             </div>
-            <div class="img"><img src="img/thumb_up_alt.png" alt="">
+            <div class="img"><span class="material-icons">thumb_up </span>
                 <p>Vídeos marcados co...</p>
             </div>
             <div class="linha"></div>
@@ -102,29 +110,29 @@
         </section>
         <section class="menu-secund">
             <div class="secund-img">
-                <img src="img/home.png" alt="">
+                <span class="material-icons">home</span>
                 <p>Início</p>
             </div>
             <div class="secund-img">
-                <img src="img/explore.png" alt="">
+                <span class="material-icons">explore</span>
                 <p>Explorar</p>
             </div>
             <div class="secund-img">
-                <img src="img/Vector (2).png" alt="">
+                <span class="material-icons">subscriptions</span>
                 <p>Inscrições</p>
             </div>
             <div class="secund-img">
-                <img src="img/Vector.png" alt="">
+                <span class="material-icons">video_library</span>
                 <p>Biblioteca</p>
             </div>
         </section>
     </nav>
-
+    <!-- AREA-DOS-VIDEOS -->
     <main class="main-content">
-        <div id="sombra"></div>
         <div class="bottonE">
             <img src="img/ArrowEsquerda.png" alt="">
         </div>
+
         <section class="lista-main">
             <ul>
                 <li>Tudo</li>
@@ -143,11 +151,13 @@
                 <li>JavaScript</li>
             </ul>
         </section>
+
         <div class="bottonD">
             <img src="img/ArrowDireita.png" alt="">
         </div>
+
         <section class="content-video">
-            <section class="video">
+            <article class="video">
                 <img class="video-gif imagem"
                     src="https://i.ytimg.com/vi/V0FuAukFSzc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz6j4HaNZO2vOARzmoTHFKQYXo1Q"
                     alt="">
@@ -158,8 +168,8 @@
                     <a href="#">Alura Curso Online</a>
                     <a href="#">45 mil visualizações∙há 1 ano</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif1 imagem"
                     src="https://i.ytimg.com/vi/qg2lzUX8-N0/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFxfUhn7sjbLEkCknp2o8MsN6O1A"
                     alt="">
@@ -171,8 +181,8 @@
                     <a href="#">Marcos Bruno</a>
                     <a href="#">1,1 mil visualizações∙há 5 dias</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif2 imagem"
                     src="https://i.ytimg.com/vi/3Kf18kN-5XY/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCSwaMRLCtNmPxBvvCJgMc0vGdKpw"
                     alt="">
@@ -184,8 +194,8 @@
                     <a href="#">Alura Curso Online</a>
                     <a href="#">1,7 mil visualizações∙há 6 dias</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif3 imagem"
                     src="https://i.ytimg.com/vi/H75eZUaUPSc/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAF5-bP0l4UitZQwRqP8YV36wm96g"
                     alt="">
@@ -197,8 +207,8 @@
                     <a href="#">Alura Curso Online</a>
                     <a href="#">28 mil visualizações∙há 1 mês</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif4 imagem"
                     src="https://i.ytimg.com/vi/Zqom2UaA6xY/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCyKzfhCqjFQH7rSwmek-G3Ga5Oew"
                     alt="">
@@ -211,8 +221,8 @@
                     <a href="#">Smzinho</a>
                     <a href="#">27 mil visualizações∙há 1 dia</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif5 imagem"
                     src="https://i.ytimg.com/vi/SOk3YFWUDY8/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBmNv3U7J_btS4_Zh37lkRCu3iTxQ"
                     alt="">
@@ -224,8 +234,8 @@
                     <a href="#">Smzinho</a>
                     <a href="#">344 mil visualizações∙há 1 semana</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif6 imagem"
                     src="https://i.ytimg.com/vi/WPTQ8fZ0aQk/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBhywVLxJC03LIk4n1TEAxHKas92Q"
                     alt="">
@@ -236,8 +246,8 @@
                     <a href="#">Lucas Montano</a>
                     <a href="#">170 mil visualizações∙há 1 ano</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif7 imagem"
                     src="https://i.ytimg.com/vi/NRSr4V3RN9I/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpStCpRjxj1oTD5VFoxPCnkABJOQ"
                     alt="">
@@ -248,8 +258,8 @@
                     <a href="#">Marcos Bruno</a>
                     <a href="#">45 mil visualizações∙há 1 ano</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif8 imagem"
                     src="https://i.ytimg.com/vi/V0FuAukFSzc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz6j4HaNZO2vOARzmoTHFKQYXo1Q"
                     alt="">
@@ -260,8 +270,8 @@
                     <a href="#">Alura Curso Online</a>
                     <a href="#">45 mil visualizações∙há 1 ano</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif imagem"
                     src="https://i.ytimg.com/vi/V0FuAukFSzc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz6j4HaNZO2vOARzmoTHFKQYXo1Q"
                     alt="">
@@ -272,8 +282,8 @@
                     <a href="#">Alura Curso Online</a>
                     <a href="#">45 mil visualizações∙há 1 ano</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif imagem"
                     src="https://i.ytimg.com/vi/V0FuAukFSzc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz6j4HaNZO2vOARzmoTHFKQYXo1Q"
                     alt="">
@@ -284,8 +294,8 @@
                     <a href="#">Alura Curso Online</a>
                     <a href="#">45 mil visualizações∙há 1 ano</a>
                 </div>
-            </section>
-            <section class="video">
+            </article>
+            <article class="video">
                 <img class="video-gif"
                     src="https://i.ytimg.com/vi/V0FuAukFSzc/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAz6j4HaNZO2vOARzmoTHFKQYXo1Q"
                     alt="">
@@ -296,13 +306,12 @@
                     <a href="#">Alura Curso Online</a>
                     <a href="#">45 mil visualizações∙há 1 ano</a>
                 </div>
-            </section>
+            </article>
 
         </section>
-        </div>
-        </div>
-    </main>
 
+    </main>
+    <!-- SCRIPTS -->
     <script src="javascript/AnimGif.js"></script>
     <script src="javascript/Menu.js"></script>
     <script src="javascript/Pesquisa.js"></script>
