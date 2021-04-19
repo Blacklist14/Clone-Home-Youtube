@@ -3,12 +3,14 @@ i = 0
 document.querySelector(".hamburgue").addEventListener("click", () => {
     let move = document.querySelector(".menu-content")
     let list = document.querySelector(".lista-main ul")
+    let buttonE = document.querySelector(".bottonE")
     //MOSTRA-O-MENU\\
     p = 0
     if (i <= 0) {
 
         move.style.transform = ("translateX(0px)")
         list.style.transform = "translateX(150px)"
+        buttonE.style.transform =" translateX(150px)"
     }
     //END MOSTRA-O-MENU\\
     // END REMOVE-MEU-SE-CLICA-NA-SOMBRA
@@ -19,6 +21,7 @@ document.querySelector(".hamburgue").addEventListener("click", () => {
     if (i >= 2) {
         move.style.transform = ("translateX(-300px)")
         list.style.transform = "translateX(0px)"
+        buttonE.style.transform =" translateX(0px)"
         i = 0
     }
     //END-REMOVE-MENU\\
