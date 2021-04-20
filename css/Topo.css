@@ -65,7 +65,21 @@
     border: 1px solid #303030;
     position: relative;
 }
-
+@media (max-width:1036px){
+    .topo-content input{
+        width: 300px;
+    }
+}
+@media (max-width:742px){
+    .topo-content input{
+        width: 200px;
+    }
+}
+@media (max-width:628px){
+    .topo-content input{
+        width: 100px;
+    }
+}
 .button{
     width: 60px;
     height: 30px;
@@ -88,6 +102,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 .voz span{
     font-size: 24px;
@@ -110,5 +125,92 @@ a{
     height: 35px;
     margin: 3px 50px 0px 30px;
     border-radius: 50%;
+    cursor: pointer;
+}
+.sino-box{
+    width: 500px;
+    height: 100vh;
+    top: 10px;
+    z-index: 9999;
+    right: 130px;
+    position: fixed;
+    background-color: #212121fb;
+    border-right: 1px solid #666565;
+    border-left:1px solid #666565 ;
+    border-bottom: 1px solid #666565;
+    overflow: auto;
+    display: none;
+}
+.sino-box::-webkit-scrollbar{
+    width: 14px;
+    height: 30px;
+}
+.sino-box::-webkit-scrollbar-thumb{
+    background-color: #8f8f8f;
+    border-radius: 20px;
+    width: 1px;
+    border: 3px solid #212121f8;
+}
+.sino-box h2{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 15px 0px 15px 20px;
+}
+.sino-box img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+.sino-box .notf-video{
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.sino-box .notf-video:hover{
+    background-color: #6665655d;
+}
+.sino-box .notf-titulo{
+    width: 250px;
+}
+.sino-notf{
+    position: fixed;
+    width: 484px;
+    background-color: #212121fb;
+    border-bottom: 1px solid #666565fb;
+}
+.notf-titulo p{
+    font-size: 15px;
+    margin: 0px 0px 0px 20px;
+}
+.notf-titulo .titulo-p{
+    color: #acacac;
+    margin: 10px 0px 0px 20px;
+    font-size: 14px;
+}
+.notf-video:nth-child(2){
+    margin-top: 50px;
+}
+.notf-video .titulo-tamb{
+    border-radius: 0;
+    image-rendering: optimizeQuality;
+    width: 100px;
+    height: 55px;
+    margin: 0px 0px 20px 10px;
+}
+.notf-video span{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 0px 30px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.notf-video span:active{
+    background-color: #242424fb;
 }
 /* END-TOPO */

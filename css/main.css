@@ -14,8 +14,9 @@
     width: calc(100% - 82px);
     height: calc(100% - 117px);
     display: flex;
-    top: 130px;
-    left: 70px;
+    top: 150px;
+    left: 80px;
+    font-size: 1rem;
     flex-wrap: wrap;
     position: absolute;
     justify-content: space-around;
@@ -25,14 +26,14 @@
     width: calc(100% - 82px);
     height: calc(100% - 117px);
     display: flex;
-    top: 130px;
+    top: 100px;
     left: 70px;
     flex-wrap: wrap;
     position: absolute;
     align-items: center;
     justify-content: space-around;
     background-color: rgb(18, 18, 18);
-    font-size: 70px;
+    font-size: 3em;
 }
 .video {
     margin-bottom: 50px;
@@ -89,7 +90,7 @@
     background-color: #383838;
     padding: 10px;
     height: 30px;
-    font-size: 14px;
+    font-size: .8em;
     margin-left: 140px;
     border-radius: 30px;
     display: flex;

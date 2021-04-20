@@ -52,7 +52,7 @@ document.querySelector(".bottonE").addEventListener("click", () => {
     let list = document.querySelector(".lista-main ul")
     if ("click") {
         list.style.transform = `translateX(${soma}px)`
-        var s = soma += 70
+        var s = soma += 130
         b2.style.display = "flex"
     }
     if (soma >= 70) {
@@ -67,7 +67,7 @@ document.querySelector(".bottonD").addEventListener("click", () => {
     let list = document.querySelector(".lista-main ul")
     if ("click") {
         list.style.transform = `translateX(-${som}px)`
-        som += 70
+        som += 130
         console.log(som)
         b1.style.display = "flex"
     }

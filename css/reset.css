@@ -5,17 +5,46 @@
     font-family: 'Roboto', sans-serif;
     image-rendering: optimizeQuality;
 }
-
+html{
+    font-size: 62%;
+}
+@media (max-width:1223px){
+    html{
+        font-size: 60%;
+    }
+}
+@media (max-width:1024px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:970px){
+    html{
+        font-size: 48%;
+    }
+}
+@media (max-width:768px){
+    html{
+        font-size: 36%;
+  
+    }
+}
+@media (max-width:425px){
+    html{
+        font-size: 18%;
+    }
+}
 body {
     width: 100vw;
     height: 100vh;
     background-color: #131313;
     color: white;
     overflow-x: hidden;
+    font-size: 1.6rem;
 }
 
 body::-webkit-scrollbar {
-    width: 15px;
+    width: 13px;
 }
 
 body::-webkit-scrollbar-track {
