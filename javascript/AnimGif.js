@@ -40,6 +40,9 @@ let vi6 = document.querySelector(".video-gif6").addEventListener("mouseover", ()
 let vi7 = document.querySelector(".video-gif7").addEventListener("mouseover", () => {
     v7.setAttribute("src", "img/Gif marcos2.webp")
 })
+let vi8 = document.querySelector(".video-gif8").addEventListener("mouseover", ()=>{
+    v8.setAttribute("src", "img/Felipe gif 1.webp")
+})
 
 
 // MOUSE_LEVA_HOVER
@@ -66,4 +69,7 @@ let vid6 = document.querySelector(".video-gif6").addEventListener("mouseleave", 
 })
 let vid7 = document.querySelector(".video-gif7").addEventListener("mouseleave", () => {
     v7.setAttribute("src", "https://i.ytimg.com/vi/NRSr4V3RN9I/hqdefault.jpg?sqp=-oaymwEcCPYBEIoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCpStCpRjxj1oTD5VFoxPCnkABJOQ")
+})
+let vid8 = document.querySelector(".video-gif8").addEventListener("mouseleave", () => {
+    v8.setAttribute("src", "https://i.ytimg.com/vi/Lf3ZV0UsnEo/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAUJSxqa2wi2MJnpX4bX3dGD2sdpg")
 })
